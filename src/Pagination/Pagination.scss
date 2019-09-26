@@ -1,0 +1,49 @@
+.pagination-wrapper {
+    text-align: center;
+    margin-top: 5%;
+
+    .paginationPages-title {
+        font-weight: 600;
+        margin-right: 15px;
+    }
+    .paginator-ellipsis
+    {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    p {
+        cursor: pointer;
+        margin: 0.3%;
+        padding: 1px;
+        padding-bottom: 16px;
+        width: 22px;
+        height: 7px;
+        border-radius: 20px;
+        border: 1px solid transparent;
+        display: inline-block;
+        padding-right: 1.5px;
+
+        &:hover {
+            content: '';
+            border: 1px solid #a7a9ac;
+
+        }
+
+        &:first-child {
+            color: #a7a9ac;
+            border: 1px solid #a7a9ac !important;
+        }
+
+        &:last-child {
+            margin-right: 5px;
+        }
+    }
+
+    .paginationPages-next
+    {
+        cursor: pointer;
+        color: #a7a9ac;
+        font-weight: 600;
+    }
+
+}
